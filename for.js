@@ -1,5 +1,5 @@
-let i = 0;
+let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple'];
 
-for (i = 0; i < 10; i++) {
-    console.log(i);
+for (let i = 0; i < color.length; i++) {
+    console.log(color[i]);
 }
